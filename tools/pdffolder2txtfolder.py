@@ -17,7 +17,7 @@ def main(argv):
         print ('usage: %s [-d] [-p pagenos] [-m maxpages] [-P password] [-o output]'
                ' [-C] [-n] [-A] [-V] [-M char_margin] [-L line_margin] [-W word_margin]'
                ' [-F boxes_flow] [-Y layout_mode] [-O output_dir] [-R rotation] [-S]'
-               ' [-t text|html|xml|tag] [-c codec] [-s scale]'
+               ' [-t text|html|xml|tag] [-c codec] [-s scale] [-o_f output_folder] [-i_f input_folder '] 
                ' file ...' % argv[0])
         return 100
     try:
